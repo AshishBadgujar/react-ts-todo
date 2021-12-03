@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  display: flex;
+  height: 100vh;
+}
+.container{
+  padding: 6rem;
+}
+form{
+  margin-top: -3rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+input{
+  margin-right: 1rem;
+}
+button{
+
+}
+.cards{
+  margin-top: 1rem;
+  overflow-y: scroll;
+  height: 74vh;
+}
+.card{
+  padding: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.delete{
+  background-color: rgba(255, 0, 0, 0.671);  
+}
+.delete:hover{
+  background-color: red;
+}
